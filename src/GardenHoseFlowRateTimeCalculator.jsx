@@ -188,7 +188,6 @@ const GardenHoseFlowRateTimeCalculator = () => {
             </TableContainer>
           </Grid>
         </Grid>
-        <Typography sx={{ fontSize: 13, color: '#888', mt: 2 }}>Reference: Washington State University</Typography>
       </Box>
       <Typography sx={{ fontSize: 13, color: '#888', mt: 4, textAlign: 'center' }}>
         Reference: Washington State University / IrrigationBox

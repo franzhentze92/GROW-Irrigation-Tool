@@ -304,9 +304,6 @@ const NozzleApplicationRateCalculator = () => {
             <Typography sx={{ fontSize: 16 }}><b>X</b> = Distance between nozzles on line (ft)</Typography>
             <Typography sx={{ fontSize: 16 }}><b>Y</b> = Distance between sets (ft)</Typography>
           </Box>
-          <Typography sx={{ fontSize: 14, color: '#888' }}>
-            Reference: Washington State University
-          </Typography>
         </Box>
       </Box>
       <Typography sx={{ fontSize: 13, color: '#888', mt: 4, textAlign: 'center' }}>

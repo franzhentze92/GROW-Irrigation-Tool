@@ -297,9 +297,6 @@ const NozzleFlowRateDiameterCalculator = () => {
             <Typography sx={{ fontSize: 16 }}><b>D</b> = nozzle diameter (in)</Typography>
             <Typography sx={{ fontSize: 16 }}><b>P</b> = Pressure at nozzle (psi)</Typography>
           </Box>
-          <Typography sx={{ fontSize: 14, color: '#888' }}>
-            Reference: Washington State University
-          </Typography>
         </Box>
       </Box>
       <Typography sx={{ fontSize: 13, color: '#888', mt: 4, textAlign: 'center' }}>

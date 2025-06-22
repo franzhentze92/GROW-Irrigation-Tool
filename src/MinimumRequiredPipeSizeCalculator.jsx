@@ -238,7 +238,6 @@ const MinimumRequiredPipeSizeCalculator = () => {
             <Typography sx={{ fontSize: 16 }}><b>Q</b> = Flow rate of water inside pipe (gpm)</Typography>
             <Typography sx={{ fontSize: 16 }}><b>C</b> = Pipe coefficient</Typography>
             <Typography sx={{ fontSize: 16, mb: 1 }}><b>D</b> = Pipe inside diameter (in)</Typography>
-            <Typography sx={{ fontSize: 14 }}>Reference: Washington State University</Typography>
           </Box>
         </Box>
       </Box>

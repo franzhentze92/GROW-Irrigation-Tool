@@ -202,9 +202,6 @@ const DripLineApplicationRateCalculator = () => {
             <Typography sx={{ fontSize: 16 }}><b>Row<sub>x</sub></b> = Distance between drip rows (lines) (in)</Typography>
             <Typography sx={{ fontSize: 16 }}><b>Emit<sub>y</sub></b> = Emitter spacing (in)</Typography>
           </Box>
-          <Typography sx={{ fontSize: 14, color: '#888' }}>
-            Reference: Washington State University
-          </Typography>
         </Box>
       </Box>
       <Typography sx={{ fontSize: 13, color: '#888', mt: 4, textAlign: 'center' }}>
