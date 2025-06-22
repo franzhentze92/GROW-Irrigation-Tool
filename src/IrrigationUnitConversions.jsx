@@ -170,11 +170,11 @@ const UnitConverter = ({ category, config }) => {
   }, [value, fromUnit, toUnit, config]);
 
   return (
-    <Card elevation={2} sx={{ height: '100%' }}>
-      <CardContent>
+    <Card elevation={2} sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
+      <CardContent sx={{ flexGrow: 1, display: 'flex', flexDirection: 'column' }}>
         <Typography variant="h6" sx={{ ...fontSection, mb: 2 }}>{category}</Typography>
-        <Grid container spacing={2} alignItems="center">
-          <Grid item xs={12} md={4}>
+        <Grid container spacing={2} alignItems="center" sx={{ mt: 'auto' }}>
+          <Grid item xs={12}>
             <TextField
               fullWidth
               label="Value"
@@ -184,7 +184,7 @@ const UnitConverter = ({ category, config }) => {
               variant="outlined"
             />
           </Grid>
-          <Grid item xs={5} md={3}>
+          <Grid item xs={5}>
             <TextField
               select
               fullWidth
@@ -196,10 +196,10 @@ const UnitConverter = ({ category, config }) => {
               {Object.values(config.units).map(u => <MenuItem key={u.label} value={u.label}>{u.label}</MenuItem>)}
             </TextField>
           </Grid>
-          <Grid item xs={2} md={1} sx={{ textAlign: 'center' }}>
+          <Grid item xs={2} sx={{ textAlign: 'center' }}>
             <Typography>to</Typography>
           </Grid>
-          <Grid item xs={5} md={3}>
+          <Grid item xs={5}>
             <TextField
               select
               fullWidth
